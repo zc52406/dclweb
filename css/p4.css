@@ -40,7 +40,7 @@
 }
 .page4-circle .arrow,
 .page4-shadow .arrow{
-	background-image: url(../images/p4.png);
+	background-image: url(../image/p4.png);
 	position: absolute;
 	background-repeat: no-repeat;
 	text-indent: -9999px;
@@ -105,7 +105,7 @@
 .page4-desc{
 	font-size: 22px;
 	width: 370px;
-	height: 60px;
+	/*height: 60px;*/
 	line-height: 26px;
 	color: #a3a3a3;
 	position: absolute;
@@ -125,15 +125,47 @@
 	width: 252px;
 	position: relative;
 	padding: 8px;
-	border-radius: 5px;
-	box-shadow: 0 2px 6px rgba(0,0,0,.4);
 	background: #fff;
-	border: 1px solid #eee;
 	opacity: 0;
 	filter: alpha(opacity=0);
 }
-.page4-desc .thumnail img{
-	width: 100%;
+.page4-desc .product{
+	text-align: center;
+	width: 323px;
+	position: absolute;
+	padding: 8px;
+	background: #fff;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.page4-desc .service_object{
+	font-size: 20px;
+	color: #333333;
+
+	text-align: center;
+	width: 323px;
+	position: absolute;
+	padding: 8px;
+	background: #fff;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.service_object .img_container{
+	padding: 10px;
+	border: 1px solid #b2b2b2;
+	box-shadow: 0 2px 6px rgba(0,0,0,.4);
+	border-radius: 5px;
+}
+.service_object .img_container>p{
+	line-height: 100%;
+}
+.service_object>p{
+	color: #23b9cb;
+	font-size: 24px;
+}
+.service_object img{
+	width: 300px;
+	height: 168px;
 }
 .page4-desc .thumnail h4{
 	font-size: 16px;
@@ -147,7 +179,7 @@
 	line-height: 20px;
 }
 .page4-desc .line{
-	background-image: url(../images/p4-hover2.png);
+	background-image: url(../image/p4-hover2.png);
 	background-repeat: no-repeat;
 	height: 34px;
 }
@@ -176,6 +208,7 @@
 }
 .page4-desc2{
 	text-align: right;
+	top: 50px;
 	left: 500px;
 }
 .page4-desc2-animate{
@@ -206,11 +239,23 @@
 	left: -290px
 }
 .page4-article{
-	width: 900px;
+	opacity: 0;
+	width: 500px;
 	margin: 0 auto;
 	font-size: 20px;
 	line-height: 26px;
 	text-align: center;
+}
+.article_container{
+	position: relative;
+}
+.article_container img{
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.article_container p{
+	padding: 10px;
 }
 .page4-loaded .page4-circle{
 	-webkit-transform: rotate(0);
@@ -225,19 +270,54 @@
 	-webkit-transition: all 1s ease-in-out .8s;
 	transition: all 1s ease-in-out .8s;
 }
+.thumnail{
+	background: none !important;
+}
 .page4-desc1 .thumnail{
-	top: -200px;
+	top: -150px;
 	left: -90px;
+}
+.page4-desc1 .product{
+	top: -100px;
+	left: -90px;
+}
+.page4-desc1 .service_object{
+	top: -100px;
+	left: -120px;
 }
 .page4-desc4 .thumnail{
 	top: -100px;
 	left: -90px;
 }
+.page4-desc4 .product{
+	top: -50px;
+	left: -90px;
+}
+.page4-desc4 .service_object{
+	top: -100px;
+	left: -120px;
+}
 .page4-desc2 .thumnail{
 	top: -200px;
 	left: 140px;
 }
+.page4-desc2 .product{
+	top: -150px;
+	left: 140px;
+}
+.page4-desc2 .service_object{
+	top: -150px;
+	left: 140px;
+}
 .page4-desc3 .thumnail{
+	top: -100px;
+	left: 140px;
+}
+.page4-desc3 .product{
+	top: -50px;
+	left: 140px;
+}
+.page4-desc3 .service_object{
 	top: -100px;
 	left: 140px;
 }
@@ -255,20 +335,14 @@
 	-webkit-transition: opacity .4s;
 	transition: opacity .4s;
 }
-.page4-loaded .j_active_0 p,
-.page4-loaded .j_active_1 p,
-.page4-loaded .j_active_3 p{
-	font-size: 24px;
-	color: #333;
-}
 .page4-loaded .j_active_0 .line{
-	background-position: 0 -459px;
+	/*background-position: 0 -459px;*/
 }
 .page4-loaded .j_active_1 .line{
-	background-position: 0 -785px;
+	/*background-position: 0 -785px;*/
 }
 .page4-loaded .j_active_3 .line{
-	background-position: -55px -153px;
+	/*background-position: -55px -153px;*/
 }
 
 .p4-banner{margin-top: -220px;}

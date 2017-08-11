@@ -1,0 +1,71 @@
+#page-7{
+    background-color: #FFFFFF;
+}
+.p-contact .top {
+    margin: 0 auto;
+    margin-top: px;
+    width: 1200px;
+    height: 400px;
+    background: #fff;
+    border: 6px solid #a7c0e0;
+    border-radius: 10px;
+}
+.bottom{
+    width: 100%;
+    .qq_tel{
+        width: 800px;
+        margin: 0 auto;
+        .img{
+            img:nth-child(2){
+                display: none;
+            }
+            .num{
+                display: none;
+            }
+            width: 180px;
+            text-align: center;
+            float: left;
+            margin-left: 130px;
+            p{
+                color: #666666;
+                font-size: 21px;
+            }
+        }
+        .img:nth-child(1){
+            margin-left: 0px;
+        }
+    }
+    .bottom_text{
+        width: 100%;
+        height: 225px;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        background-color: #23b9cb;
+        .text_container{
+            width: 1200px;
+            margin: 0 auto;
+            margin-top: 24px;
+            .left_text{
+                float: left;
+                p{
+                    height: 32px;
+                    line-height: 32px;
+                    font-size: 16px;
+                    color: #FFFFFF;
+                }
+                .title{
+                    font-size: 18px;
+                    font-weight: 800;
+                }
+            }
+            .right_text{
+                float: right;
+                text-align: center;
+                color: #FFFFFF;
+                font-size: 20px;
+            }
+        }
+    }
+    
+}

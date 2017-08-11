@@ -1,40 +1,59 @@
+#page-7 {
+  background-color: #FFFFFF; }
+
 .p-contact .top {
-	text-align: center;
-	height: 60%;
-	background: #fff;
-}
-.p-contact .main {
-	height: 40%;
-}
-.p-contact .main h2{
-	font-size: 20px;
-	margin-top: 50px;
-}
-.p-contact .main p{
-	font-size: 12px;
-	margin-top: 10px;
-}
-.p-contact .main .border{
-	height: 6px;
-	background: url(../images/p6-border.png) 0 0 repeat;
-}
-.p-contact .main img{
-	width: 132px;
-	margin-bottom: 10px;
-}
-.p-contact .main .cell-left{
-	float: left;
-	margin-right: 20px;
-}
-.p-contact .main .cell-right{
-	float: right;
-	margin-top: 50px;
-}
-.p-contact .main .cell-right p{
-	font-size: 12px;
-	margin-top: 0;
-}
-.p-contact .wrap{
-	width: 1000px;
-	margin: 0 auto;
-}
+  margin: 0 auto;
+  margin-top: px;
+  width: 1200px;
+  height: 400px;
+  background: #fff;
+  border: 6px solid #a7c0e0;
+  border-radius: 10px; }
+
+.bottom {
+  width: 100%; }
+  .bottom .qq_tel {
+    width: 800px;
+    margin: 0 auto; }
+    .bottom .qq_tel .img {
+      width: 180px;
+      text-align: center;
+      float: left;
+      margin-left: 130px; }
+      .bottom .qq_tel .img img:nth-child(2) {
+        display: none; }
+      .bottom .qq_tel .img .num {
+        display: none; }
+      .bottom .qq_tel .img p {
+        color: #666666;
+        font-size: 21px; }
+    .bottom .qq_tel .img:nth-child(1) {
+      margin-left: 0px; }
+  .bottom .bottom_text {
+    width: 100%;
+    height: 225px;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    background-color: #23b9cb; }
+    .bottom .bottom_text .text_container {
+      width: 1200px;
+      margin: 0 auto;
+      margin-top: 24px; }
+      .bottom .bottom_text .text_container .left_text {
+        float: left; }
+        .bottom .bottom_text .text_container .left_text p {
+          height: 32px;
+          line-height: 32px;
+          font-size: 16px;
+          color: #FFFFFF; }
+        .bottom .bottom_text .text_container .left_text .title {
+          font-size: 18px;
+          font-weight: 800; }
+      .bottom .bottom_text .text_container .right_text {
+        float: right;
+        text-align: center;
+        color: #FFFFFF;
+        font-size: 20px; }
+
+/*# sourceMappingURL=p-contact.css.map */

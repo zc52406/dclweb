@@ -1,0 +1,44 @@
+#page-3{
+    background: #fff;
+}
+.p3_container{
+    width: 1040px;
+    margin: 0 auto;
+    margin-top: 70px;
+    .p3_con_left,.p3_con_right{
+        width: 400px;
+    }
+    .p3_con_right{
+        float: right;
+        .p3_right_list{
+            margin-bottom: 110px;            
+        }
+        .title{
+            margin-bottom: 10px;
+            color: #008a43;
+            font-size: 14px;
+        }
+        .text{
+            margin-bottom: 10px;
+            color: #808080;
+            font-size: 14px;
+        }
+    }
+    .p3_con_left{
+        float: left;
+        .p3_left_list{
+            margin-bottom: 110px;            
+        }
+        .title{
+            margin-bottom: 10px;
+            color: #008a43;
+            font-size: 14px;
+        }
+        .text{
+            margin-bottom: 10px;
+            color: #808080;
+            font-size: 14px;
+        }
+    }
+}
+                
