@@ -555,8 +555,9 @@ $(function() {
 				height: 60, // 信息窗口高度      
 				title: "杭州领沃科技有限公司" // 信息窗口标题     
 			}
-			var infoWindow = new BMap.InfoWindow("地址：杭州市江干区玖堡精品5D006 <br /> 电话：15736748889", opts); // 创建信息窗口对象      
-
+			var infoWindow = new BMap.InfoWindow("地址：杭州市江干区玖堡精品5D006 <br /> 电话：13251986666", opts); // 创建信息窗口对象      
+			map.openInfoWindow(infoWindow, marker.getPosition()); // 打开信息窗口
+			
 			marker.addEventListener('click', function() {
 				map.openInfoWindow(infoWindow, marker.getPosition()); // 打开信息窗口
 			});
